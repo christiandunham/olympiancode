@@ -11,9 +11,13 @@ angular.module('olyCode',[
         templateUrl: 'pages/page-home/home.html',
         controller:'HomeController'
     })
-    .when('/about',{
-        templateUrl: 'pages/page-about/about.html',
-        controller: 'AboutController'
+    .when('/target',{
+        templateUrl: 'pages/page-target/target.html',
+        controller: 'TargetController'
+    })
+    .when('/contact',{
+        templateUrl: 'pages/page-contact/contact.html',
+        controller: 'ContactController'
     })
     //anything else and it defaults to otherwise
     .otherwise({
