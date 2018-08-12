@@ -35,6 +35,7 @@ nav ul a{
 }
 nav ul a:hover{
     color: royalblue;
+    text-decoration: none;
 }
 nav ul li {
   display: inline-block;
