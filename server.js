@@ -18,6 +18,9 @@ app.use(express.static(__dirname + "/client"));
 // like "localhost:8000" or "127.0.0.1:8000"
 var port = 8080;
 
+
+require('./api/version-checks')(app);
+
 // Once our port is declared, we'll have our server listen
 // to that specific port for any HTTP requests. We'll
 // cover routing at another time
